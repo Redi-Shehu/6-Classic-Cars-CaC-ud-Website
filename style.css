@@ -1,0 +1,59 @@
+/* font-family: "Special Elite", system-ui;
+   font-weight: 400; */
+/* font-family: "Josefin Sans", sans-serif; 
+   font-weight: 100 - 700 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-primary: "Special Elite", system-ui;
+  --font-secondary: "Josefin Sans", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  background-color: #ccc;
+}
+a,
+input[type="submit"],
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* -------------------------- */
+.menu {
+}
+.menu-line {
+}
+.menu-line-1 {
+}
+.menu-line-2 {
+}
+.navbar {
+}
+.target {
+}
+.navbar__link {
+}
+.wrapper {
+}
+.section-1 {
+}
+.section-2 {
+}
+.section-3 {
+}
+.section-4 {
+}
+.section-5 {
+}
