@@ -16,3 +16,17 @@ section.forEach((sect) => {
     sect.classList.remove("change");
   });
 });
+
+// videos autoplay effect
+const videos = document.querySelectorAll(".video");
+
+videos.forEach((video) => {
+  video.addEventListener("mouseenter", (e) => {
+    // video.setAttribute("autoplay", ""); ---- doesn't work
+    video.play();
+  });
+  video.addEventListener("mouseleave", (e) => {
+    // video.removeAttribute("autoplay", ""); ---- doesn't work
+    video.pause();
+  });
+});
